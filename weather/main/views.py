@@ -1,6 +1,7 @@
 from django.shortcuts import render 
 import json 
 import urllib.request 
+'''by swati'''
 def index(request): 
 	if request.method == 'POST': 
 		city = request.POST['city'] 
